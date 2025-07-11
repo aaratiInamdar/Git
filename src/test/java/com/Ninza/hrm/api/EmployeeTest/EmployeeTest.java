@@ -103,7 +103,6 @@ public class EmployeeTest extends BaseAPIClass{
 				.spec(specResponseObj)
 					.assertThat().statusCode(500)
 				     .log().all();
-				 System.out.println("");
 			}
 			
 }
