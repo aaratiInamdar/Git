@@ -64,9 +64,7 @@ public class ProjectTest extends BaseAPIClass{
 				.then()
 						.spec(specResponseObj)
 						.assertThat().statusCode(409)
-						.log().all();
-				System.out.println("hello");
-       }
-			
-			
+						.log().all();	
+				 System.out.println("hello good ");				 				 				
+       }				
 }
